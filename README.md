@@ -5,5 +5,4 @@ docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:7.4-cli php v
 # Configurar Homestead.yaml
 vagrant up
 
-
 ```
