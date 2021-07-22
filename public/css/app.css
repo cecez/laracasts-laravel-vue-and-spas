@@ -455,7 +455,7 @@ ul {
 *::after {
   border-width: 0;
   border-style: solid;
-  border-color: #dae1e7;
+  border-color: #dedede;
 }
 
 /**
@@ -513,34 +513,6 @@ table {
  *
  * @import "tailwindcss/components";
  */
-
-.container {
-  width: 100%;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 576px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 992px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
 
 /**
  * Here you would add any of your custom component classes; stuff that you'd
@@ -615,7 +587,7 @@ table {
 }
 
 .bg-grey-light {
-  background-color: #dae1e7;
+  background-color: #dedede;
 }
 
 .bg-grey-lighter {
@@ -907,7 +879,7 @@ table {
 }
 
 .hover\:bg-grey-light:hover {
-  background-color: #dae1e7;
+  background-color: #dedede;
 }
 
 .hover\:bg-grey-lighter:hover {
@@ -1199,7 +1171,7 @@ table {
 }
 
 .focus\:bg-grey-light:focus {
-  background-color: #dae1e7;
+  background-color: #dedede;
 }
 
 .focus\:bg-grey-lighter:focus {
@@ -1563,7 +1535,7 @@ table {
 }
 
 .border-grey-light {
-  border-color: #dae1e7;
+  border-color: #dedede;
 }
 
 .border-grey-lighter {
@@ -1855,7 +1827,7 @@ table {
 }
 
 .hover\:border-grey-light:hover {
-  border-color: #dae1e7;
+  border-color: #dedede;
 }
 
 .hover\:border-grey-lighter:hover {
@@ -2147,7 +2119,7 @@ table {
 }
 
 .focus\:border-grey-light:focus {
-  border-color: #dae1e7;
+  border-color: #dedede;
 }
 
 .focus\:border-grey-lighter:focus {
@@ -4901,7 +4873,7 @@ table {
 }
 
 .text-grey-light {
-  color: #dae1e7;
+  color: #dedede;
 }
 
 .text-grey-lighter {
@@ -5193,7 +5165,7 @@ table {
 }
 
 .hover\:text-grey-light:hover {
-  color: #dae1e7;
+  color: #dedede;
 }
 
 .hover\:text-grey-lighter:hover {
@@ -5485,7 +5457,7 @@ table {
 }
 
 .focus\:text-grey-light:focus {
-  color: #dae1e7;
+  color: #dedede;
 }
 
 .focus\:text-grey-lighter:focus {
@@ -6181,6 +6153,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 920px;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -6230,7 +6206,7 @@ a {
   }
 
   .sm\:bg-grey-light {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .sm\:bg-grey-lighter {
@@ -6522,7 +6498,7 @@ a {
   }
 
   .sm\:hover\:bg-grey-light:hover {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .sm\:hover\:bg-grey-lighter:hover {
@@ -6814,7 +6790,7 @@ a {
   }
 
   .sm\:focus\:bg-grey-light:focus {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .sm\:focus\:bg-grey-lighter:focus {
@@ -7170,7 +7146,7 @@ a {
   }
 
   .sm\:border-grey-light {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .sm\:border-grey-lighter {
@@ -7462,7 +7438,7 @@ a {
   }
 
   .sm\:hover\:border-grey-light:hover {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .sm\:hover\:border-grey-lighter:hover {
@@ -7754,7 +7730,7 @@ a {
   }
 
   .sm\:focus\:border-grey-light:focus {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .sm\:focus\:border-grey-lighter:focus {
@@ -10492,7 +10468,7 @@ a {
   }
 
   .sm\:text-grey-light {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .sm\:text-grey-lighter {
@@ -10784,7 +10760,7 @@ a {
   }
 
   .sm\:hover\:text-grey-light:hover {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .sm\:hover\:text-grey-lighter:hover {
@@ -11076,7 +11052,7 @@ a {
   }
 
   .sm\:focus\:text-grey-light:focus {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .sm\:focus\:text-grey-lighter:focus {
@@ -11803,7 +11779,7 @@ a {
   }
 
   .md\:bg-grey-light {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .md\:bg-grey-lighter {
@@ -12095,7 +12071,7 @@ a {
   }
 
   .md\:hover\:bg-grey-light:hover {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .md\:hover\:bg-grey-lighter:hover {
@@ -12387,7 +12363,7 @@ a {
   }
 
   .md\:focus\:bg-grey-light:focus {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .md\:focus\:bg-grey-lighter:focus {
@@ -12743,7 +12719,7 @@ a {
   }
 
   .md\:border-grey-light {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .md\:border-grey-lighter {
@@ -13035,7 +13011,7 @@ a {
   }
 
   .md\:hover\:border-grey-light:hover {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .md\:hover\:border-grey-lighter:hover {
@@ -13327,7 +13303,7 @@ a {
   }
 
   .md\:focus\:border-grey-light:focus {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .md\:focus\:border-grey-lighter:focus {
@@ -16065,7 +16041,7 @@ a {
   }
 
   .md\:text-grey-light {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .md\:text-grey-lighter {
@@ -16357,7 +16333,7 @@ a {
   }
 
   .md\:hover\:text-grey-light:hover {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .md\:hover\:text-grey-lighter:hover {
@@ -16649,7 +16625,7 @@ a {
   }
 
   .md\:focus\:text-grey-light:focus {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .md\:focus\:text-grey-lighter:focus {
@@ -17376,7 +17352,7 @@ a {
   }
 
   .lg\:bg-grey-light {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .lg\:bg-grey-lighter {
@@ -17668,7 +17644,7 @@ a {
   }
 
   .lg\:hover\:bg-grey-light:hover {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .lg\:hover\:bg-grey-lighter:hover {
@@ -17960,7 +17936,7 @@ a {
   }
 
   .lg\:focus\:bg-grey-light:focus {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .lg\:focus\:bg-grey-lighter:focus {
@@ -18316,7 +18292,7 @@ a {
   }
 
   .lg\:border-grey-light {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .lg\:border-grey-lighter {
@@ -18608,7 +18584,7 @@ a {
   }
 
   .lg\:hover\:border-grey-light:hover {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .lg\:hover\:border-grey-lighter:hover {
@@ -18900,7 +18876,7 @@ a {
   }
 
   .lg\:focus\:border-grey-light:focus {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .lg\:focus\:border-grey-lighter:focus {
@@ -21638,7 +21614,7 @@ a {
   }
 
   .lg\:text-grey-light {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .lg\:text-grey-lighter {
@@ -21930,7 +21906,7 @@ a {
   }
 
   .lg\:hover\:text-grey-light:hover {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .lg\:hover\:text-grey-lighter:hover {
@@ -22222,7 +22198,7 @@ a {
   }
 
   .lg\:focus\:text-grey-light:focus {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .lg\:focus\:text-grey-lighter:focus {
@@ -22949,7 +22925,7 @@ a {
   }
 
   .xl\:bg-grey-light {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .xl\:bg-grey-lighter {
@@ -23241,7 +23217,7 @@ a {
   }
 
   .xl\:hover\:bg-grey-light:hover {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .xl\:hover\:bg-grey-lighter:hover {
@@ -23533,7 +23509,7 @@ a {
   }
 
   .xl\:focus\:bg-grey-light:focus {
-    background-color: #dae1e7;
+    background-color: #dedede;
   }
 
   .xl\:focus\:bg-grey-lighter:focus {
@@ -23889,7 +23865,7 @@ a {
   }
 
   .xl\:border-grey-light {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .xl\:border-grey-lighter {
@@ -24181,7 +24157,7 @@ a {
   }
 
   .xl\:hover\:border-grey-light:hover {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .xl\:hover\:border-grey-lighter:hover {
@@ -24473,7 +24449,7 @@ a {
   }
 
   .xl\:focus\:border-grey-light:focus {
-    border-color: #dae1e7;
+    border-color: #dedede;
   }
 
   .xl\:focus\:border-grey-lighter:focus {
@@ -27211,7 +27187,7 @@ a {
   }
 
   .xl\:text-grey-light {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .xl\:text-grey-lighter {
@@ -27503,7 +27479,7 @@ a {
   }
 
   .xl\:hover\:text-grey-light:hover {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .xl\:hover\:text-grey-lighter:hover {
@@ -27795,7 +27771,7 @@ a {
   }
 
   .xl\:focus\:text-grey-light:focus {
-    color: #dae1e7;
+    color: #dedede;
   }
 
   .xl\:focus\:text-grey-lighter:focus {
