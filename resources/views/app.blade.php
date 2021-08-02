@@ -22,7 +22,7 @@
 
                 <main class="flex">
                     <aside class="w-64 pt-8">
-                        <section class="mb-10">
+                        <div class="mb-10">
                             <h5 class="uppercase font-bold mb-3 text-base">The Brand</h5>
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" exact to="/">Logo</router-link></li>
@@ -30,9 +30,9 @@
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/colors">Colors</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/typography">Typography</router-link></li>
                             </ul>
-                        </section>
+                        </div>
 
-                        <section class="mb-8">
+                        <div class="mb-10">
                             <h5 class="uppercase font-bold mb-3 text-base">Doodles</h5>
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/mascot">Mascot</router-link></li>
@@ -40,7 +40,14 @@
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/loaders-and-animations">Loaders and Animations</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
-                        </section>
+                        </div>
+
+                        <div>
+                            <h5 class="uppercase font-bold mb-3 text-base">Stats</h5>
+                            <ul class="list-reset">
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
+                            </ul>
+                        </div>
                     </aside>
 
                     <div class="primary flex-1">
