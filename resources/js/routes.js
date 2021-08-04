@@ -4,6 +4,7 @@ import Logo from "./components/Logo";
 import LogoSymbol from "./components/LogoSymbol";
 import Mascot from "./components/Mascot";
 import NotFound from "./components/NotFound";
+import PrivateRepos from "./components/PrivateRepos";
 import SiteStats from "./components/SiteStats";
 import Typography from "./components/Typography";
 import Wallpapers from "./components/Wallpapers";
@@ -18,6 +19,7 @@ export default {
     routes: [
         { path: '*', component: NotFound },
         { path: '/', component: Logo },
+        { path: '/private-repos', component: PrivateRepos },
         { path: '/colors', component: Colors },
         { path: '/illustrations', component: Illustrations },
         { path: '/loaders-and-animations', component: LoadersAndAnimations },

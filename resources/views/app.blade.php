@@ -46,6 +46,7 @@
                             <h5 class="uppercase font-bold mb-3 text-base">Stats</h5>
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/private-repos">Private Repos</router-link></li>
                             </ul>
                         </div>
                     </aside>
